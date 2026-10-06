@@ -19,7 +19,7 @@ Homebrew is the most popular package manager for macOS. It's how power users ins
 
 ```bash
 # Add the Allternit tap (one time)
-brew tap gizziio/tap
+brew tap allternit/tap
 
 # Install Allternit Desktop
 brew install --cask allternit
@@ -86,10 +86,10 @@ If you don't use Homebrew:
 curl -fsSL https://install.allternit.com | bash
 ```
 
-Or download the DMG directly from [GitHub Releases](https://github.com/Gizziio/desktop/releases).
+Or download the DMG directly from [GitHub Releases](https://github.com/Allternit/desktop/releases).
 
 ## Support
 
 - **Docs**: https://docs.allternit.com
-- **Issues**: https://github.com/Gizziio/desktop/issues
+- **Issues**: https://github.com/Allternit/desktop/issues
 - **Website**: https://allternit.com

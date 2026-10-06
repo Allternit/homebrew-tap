@@ -2,7 +2,7 @@ cask "allternit" do
   version "1.0.0"
   sha256 "18aca858465c69429a11baa176ac7424f1633151464bf66bfaaf056b24590c15"
 
-  url "https://github.com/Gizziio/desktop/releases/download/v#{version}/Allternit-Desktop-#{version}-arm64.dmg"
+  url "https://github.com/Allternit/desktop/releases/download/v#{version}/Allternit-Desktop-#{version}-arm64.dmg"
   name "Allternit Desktop"
   desc "AI-powered autonomous coding platform with local execution"
   homepage "https://allternit.com"
