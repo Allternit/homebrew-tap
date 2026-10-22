@@ -1,9 +1,9 @@
 cask "allternit" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.1.7"
-  sha256 arm:   "642676521376da925205f84357b30d3ca301869b2720d6a86af0ae07751990c2",
-         intel: "48c2d118146e5c6618c28efdc567207be11a7b7ebbca15edd41a5a271d582447"
+  version "1.1.9"
+  sha256 arm:   "0043f71d82e59b1af1bf413f405ffc2185802c186f76b7854ddc41c87c0e0010",
+         intel: "85b081aed3dacf7d5cd62fa90a9f841f67a523fa34899ee6c3d8a8cb4a7c8ec2"
 
   url "https://github.com/Allternit/desktop/releases/download/v#{version}/Allternit-Desktop-#{version}-#{arch}.dmg"
   name "Allternit Desktop"
@@ -29,10 +29,10 @@ cask "allternit" do
   ]
 
   caveats <<~EOS
-    Allternit Desktop is not signed with an Apple Developer ID yet. On first
-    launch, if Gatekeeper blocks the app, right-click Allternit Desktop in
-    Applications and select "Open".
+    Allternit Desktop is not notarized by Apple yet. The first time you open
+    it, macOS says it could not verify the app: press Done, then open
+    System Settings > Privacy & Security and press Open Anyway.
 
-    The app updates itself after installation.
+    To update, run: brew upgrade --cask allternit
   EOS
 end
