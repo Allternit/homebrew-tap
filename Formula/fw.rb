@@ -3,8 +3,8 @@ class Fw < Formula
 
   desc "Download, verify and search open AI model weights from Allternit Freeweights"
   homepage "https://freeweights.allternit.com"
-  url "https://github.com/Allternit/freeweights/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "09f5ee5fa2072dec25b926eec3a01f57bb8608428a671f092d9cc9de4bf22497"
+  url "https://github.com/Allternit/freeweights/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "c7cae6c5d876bc7a4dbae721da92eaa4cda7dd4eee30e9e291b601bc9ebe1d05"
   license "Apache-2.0"
 
   depends_on "minisign"
