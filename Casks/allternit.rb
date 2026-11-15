@@ -1,9 +1,9 @@
 cask "allternit" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.1.14"
-  sha256 arm:   "311ef8563c4bae95f84c8d2c35485861dec8a719851e565d7f6ee05af9f9fe30",
-         intel: "1bbe4743f8df4363b1167f1ea27e894ba7b8f99dfa016e70b17bd5592ade84b6"
+  version "1.1.15"
+  sha256 arm:   "7c82d91f642aaca5ce89b066a8eef79ac582683704d3656d6cebcb9659985e1b",
+         intel: "727fb3cb6892595c6c62bc92ed3e919fa6a67497b56b615ff6a77e67d491e69d"
 
   url "https://github.com/Allternit/desktop/releases/download/v#{version}/Allternit-Desktop-#{version}-#{arch}.dmg"
   name "Allternit Desktop"
